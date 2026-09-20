@@ -1,7 +1,7 @@
 # Privacy Policy for Australian Citizenship
 
 **App Store name: AU Citizen Test & Prep 2026**  
-**Last updated: 19 September 2026**
+**Last updated: 20 September 2026**
 
 Australian Citizenship is an independent study app that helps users prepare for the Australian citizenship test. This policy explains what information the app stores, what information is processed to provide its features, and how external services are used.
 
@@ -102,12 +102,26 @@ We use measures intended to protect purchase verification and premium content, i
 
 We may update this policy when the app, data practices or providers change. The latest version will be published at this address with a revised date.
 
-## 12. Contact and independence
+## 12. Content sources and licensing
 
-For privacy enquiries or requests, use the contact information on our existing public support page:
+AU Citizen Test & Prep 2026 is an independent educational study app. It does not administer the official Australian citizenship test, process citizenship applications or provide personalised immigration or legal advice.
 
-[Citizenship Apps Support](https://sacjoy.github.io/CanadaPrepSupport/support.html)
+*Australian Citizenship: Our Common Bond* © Commonwealth of Australia 2020 is used as a primary reference for the app's Australian citizenship study material.
+
+Material from that publication that is reused or adapted is used under the [Creative Commons Attribution 4.0 International licence (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/), except the Commonwealth Coat of Arms and any other material excluded by the publication.
+
+Study summaries, explanations and practice questions are independently prepared for this app. Adaptations include summarisation, reorganisation, conversion into question-and-answer format and explanatory wording. The app does not present its practice-question bank as the official Australian citizenship examination question bank.
+
+[Australian Citizenship: Our Common Bond — Testable Section](https://immi.homeaffairs.gov.au/citizenship-subsite/files/our-common-bond-testable.pdf)
+
+[Department of Home Affairs — Prepare for the citizenship test](https://immi.homeaffairs.gov.au/citizenship/test-and-interview/prepare-for-test)
+
+## 13. Contact, support and independence
+
+For privacy enquiries, support requests or other questions about the app, use our Australia-specific support page:
+
+[AU Citizen Test & Prep 2026 Support](https://sacjoy.github.io/AustraliaPrepSupport/)
 
 Please contact us privately rather than posting personal information in a public GitHub issue.
 
-Australian Citizenship is not affiliated with, endorsed by or operated by the Australian Government or the Department of Home Affairs.
+AU Citizen Test & Prep 2026 is not affiliated with, endorsed by or operated by the Australian Government or the Department of Home Affairs.
