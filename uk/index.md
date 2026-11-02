@@ -1,5 +1,7 @@
 # Privacy Policy for UK Citizenship Test
 
+[UK Citizenship Test 2027: app features and support](support.html)
+
 **Life in the UK Test preparation app**  
 **Last updated: 20 September 2026**
 
