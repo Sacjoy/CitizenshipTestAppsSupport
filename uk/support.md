@@ -1,6 +1,28 @@
-# UK Citizenship Test Support
+---
+title: "UK Citizenship Test 2027 | Life in the UK Practice & Support"
+description: "Life in the UK Test practice for iPhone and iPad. Try two free mock tests, then unlock 2,500 questions and a study guide with one purchase."
+---
 
-Support for our independent Life in the UK Test preparation app.
+# Life in the UK Test practice for iPhone and iPad
+
+**UK Citizenship Test 2027** offers two free mock tests. A one-time Lifetime Access purchase unlocks the full study tools. No recurring subscription.
+
+[View UK Citizenship Test 2027 on the App Store](https://apps.apple.com/gb/app/uk-citizenship-test-2027/id6811575732)
+
+For iPhone and iPad running iOS or iPadOS 17 or later. No account or sign-in required. Check the App Store for the current price in your region.
+
+## What can I try for free?
+
+Complete two mock tests, each with 24 questions and a 45-minute limit. Review your answers and results to identify topics that need more revision.
+
+## What does Lifetime Access include?
+
+- 2,500 practice questions with topic-based and mixed practice.
+- The full study guide and unlimited mock tests.
+- Saved questions, mistake review, progress tracking and test history.
+- Future question-bank updates.
+
+Practice Questions and the Study Guide require Lifetime Access. The free option includes two mock tests.
 
 ## Contact Support
 
