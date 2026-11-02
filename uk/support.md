@@ -3,6 +3,8 @@ title: "UK Citizenship Test 2027 | Life in the UK Practice & Support"
 description: "Life in the UK Test practice for iPhone and iPad. Try two free mock tests, then unlock 2,500 questions and a study guide with one purchase."
 ---
 
+<nav aria-label="Citizenship test apps"><p><a href="https://sacjoy.github.io/CitizenshipTestAppsSupport/">All citizenship test apps</a> · <a href="https://sacjoy.github.io/CanadaPrepSupport/australia-support.html">Australia</a> · <a href="https://sacjoy.github.io/CanadaPrepSupport/support.html">Canada</a> · <a href="https://sacjoy.github.io/CitizenshipTestAppsSupport/uk/support.html">United Kingdom</a></p></nav>
+
 # Life in the UK Test practice for iPhone and iPad
 
 **UK Citizenship Test 2027** offers two free mock tests. A one-time Lifetime Access purchase unlocks the full study tools. No recurring subscription.
@@ -77,3 +79,7 @@ Read the [UK Citizenship Test Privacy Policy](./).
 ## Response Time
 
 We aim to respond to support requests as soon as reasonably possible.
+
+## About the developer
+
+Developed by Megha Sachin Jadhav. Our Australian, Canadian and UK citizenship preparation apps are separate products. Each app has its own Lifetime Access purchase.
