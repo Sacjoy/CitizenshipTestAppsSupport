@@ -83,3 +83,7 @@ We aim to respond to support requests as soon as reasonably possible.
 ## About the developer
 
 Developed by Megha Sachin Jadhav. Our Australian, Canadian and UK citizenship preparation apps are separate products. Each app has its own Lifetime Access purchase.
+
+## Study guide and app comparison
+
+[Life in the UK test: study resources and app comparison](https://sacjoy.github.io/CitizenshipTestAppsSupport/guides/life-in-the-uk-test-apps.html). Explore official resources, a suggested revision routine and a disclosed comparison with other apps.
