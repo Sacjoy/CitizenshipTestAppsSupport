@@ -3,15 +3,11 @@ on:
   push:
   pull_request:
   workflow_dispatch:
-  workflow_run:
-    workflows: [pages build and deployment]
-    types: [completed]
-    branches: [main]
 permissions:
   contents: read
+  actions: read
 jobs:
   source:
-    if: github.event_name != 'workflow_run'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -26,13 +22,18 @@ jobs:
           path: visibility-report.json
           retention-days: 30
   live:
-    if: github.event_name == 'workflow_dispatch' || (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success')
+    needs: source
+    if: github.ref == 'refs/heads/main' && (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: main
           persist-credentials: false
+      - name: Wait for this commit's Pages deployment
+        run: python3 _ops/wait_for_pages.py
+        env:
+          GH_TOKEN: ${{ github.token }}
       - run: python3 _ops/check_visibility.py --live
       - uses: actions/upload-artifact@v4
         if: always()
