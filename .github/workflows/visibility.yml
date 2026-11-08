@@ -1,0 +1,42 @@
+name: Visibility readiness
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+  workflow_run:
+    workflows: [pages build and deployment]
+    types: [completed]
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  source:
+    if: github.event_name != 'workflow_run'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - run: python3 -m unittest discover -s _ops/tests -v
+      - run: python3 _ops/check_visibility.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: source-readiness
+          path: visibility-report.json
+          retention-days: 30
+  live:
+    if: github.event_name == 'workflow_dispatch' || (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+      - run: python3 _ops/check_visibility.py --live
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: live-readiness
+          path: visibility-report.json
+          retention-days: 30
