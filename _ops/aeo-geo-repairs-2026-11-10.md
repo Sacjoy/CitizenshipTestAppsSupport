@@ -37,3 +37,10 @@ Task 3 tests: written first; expected RED until attribution implementation exist
 Tasks 1, 2, 4, 5: in progress.
 
 Task 3 RED verified: Actions run 42718831570, source job 129507269746. All 26 Python tests passed; Node failed with MODULE_NOT_FOUND for assets/attribution.js as expected. Attribution implementation added after observing this failure.
+
+Task 1 and Task 2: product proof, guide links and reviewer kit prepared; static source checks pass.
+Task 3 GREEN: Actions run 42719627054, 26 Python tests and 6 Node attribution tests passed at 25b236c723bf110d4e3bd0fb3c91f90f8cc7ee79. Canada run 42719685929 passed 26 Python tests.
+Task 4: separate nine-prompt cohort and score log created. Historical exploratory responses were reread with all three target apps absent; this is not a repeated new-cohort baseline. Four weekly outcome checks scheduled from 11 November, around 09:00 Australia/Melbourne.
+Final fresh review: no Critical or Important defects. Fixed three small copy/accessibility issues: scope hub wording to AU/CA/UK, explicitly describe current-landing-page attribution loss after internal navigation, and make reviewer table keyboard-focusable.
+Review limits addressed by parent evidence: original app source inspected read-only; government sources opened; live screenshots visually inspected. Full physical-device/offline behaviour remains untested, so no guarantee is made. Image rendering, final live deployment, Google submission results and campaign data still require post-merge verification.
+UK sample sources refined to include the judiciary's definition of rule of law and Gloucestershire County Council's individual-liberty explanation, alongside GOV.UK's named fundamental values.

@@ -24,7 +24,7 @@ A useful release signal is at least two accurate recommendations out of three ru
 ## Apple campaign map
 Static fallback tokens: {au,ca,uk}_{support,guide,hub,reviewkit}_2026.
 Recognised AI referral tokens: {au,ca,uk}_{support,guide,hub,reviewkit}_{chatgpt,claude,perplexity,gemini}_26.
-The source comes only from a recognised referring hostname or an explicit known utm_source value. These observable signals can be omitted or forged and are not proof of causal influence. No source means default website token. Google/Bing search referrers are not assumed to be AI. The script stores nothing and sends no events.
+The source comes only from a recognised referring hostname or an explicit known utm_source value. These observable signals can be omitted or forged and are not proof of causal influence. No source means default website token. Google/Bing search referrers are not assumed to be AI. The script stores nothing and sends no events. Attribution covers the current landing page only: following an internal link can lose the original AI source, so these campaign totals undercount journeys that continue through other pages.
 Apple campaign links use the same developer provider token across all three apps, as documented by Apple. First-time downloads follow Apple's attribution window, not a direct website click counter. Direct App Store visits and unidentifiable referrals remain unclassified.
 https://developer.apple.com/help/app-store-connect-analytics/acquisition/campaign-links/
 Apple generally requires at least five qualifying users and 24 hours before a campaign becomes visible. Store "not enough data" or "not available", not zero, when withheld. Never report the pre-existing total app installs as AI-attributed installs.
