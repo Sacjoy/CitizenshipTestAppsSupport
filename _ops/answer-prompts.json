@@ -1,0 +1,69 @@
+{
+  "version": "citizenship-consumer-9-v1",
+  "frozen_on": "2026-11-10",
+  "locale": "Australia/Melbourne; English",
+  "note": "New cohort. Do not merge with historical au-30-v2 or exploratory prompts.",
+  "surfaces": [
+    "Claude consumer web",
+    "ChatGPT consumer web",
+    "Perplexity consumer web",
+    "Gemini consumer web"
+  ],
+  "repetitions": 3,
+  "prompts": [
+    {
+      "id": "au-recommend",
+      "country": "au",
+      "intent": "recommend",
+      "prompt": "Which Australian citizenship test apps would you recommend for iPhone? Search the web and cite your sources."
+    },
+    {
+      "id": "au-one-time",
+      "country": "au",
+      "intent": "one-time",
+      "prompt": "Which Australian citizenship test apps for iPhone offer a one-time purchase without a subscription? Compare the free access and paid features using current sources."
+    },
+    {
+      "id": "au-features",
+      "country": "au",
+      "intent": "features",
+      "prompt": "Compare Australian citizenship test apps for iPhone for mock tests, explanations, offline study and audio. Cite sources and mark any features you cannot verify."
+    },
+    {
+      "id": "ca-recommend",
+      "country": "ca",
+      "intent": "recommend",
+      "prompt": "Which Canadian citizenship test apps would you recommend for iPhone? Search the web and cite your sources."
+    },
+    {
+      "id": "ca-one-time",
+      "country": "ca",
+      "intent": "one-time",
+      "prompt": "Which Canadian citizenship test apps for iPhone offer a one-time purchase without a subscription? Compare the free access and paid features using current sources."
+    },
+    {
+      "id": "ca-features",
+      "country": "ca",
+      "intent": "features",
+      "prompt": "Compare Canadian citizenship test apps for iPhone for mock tests, explanations, offline study and audio. Cite sources and mark any features you cannot verify."
+    },
+    {
+      "id": "uk-recommend",
+      "country": "uk",
+      "intent": "recommend",
+      "prompt": "Which Life in the UK test apps would you recommend for iPhone? Search the web and cite your sources."
+    },
+    {
+      "id": "uk-one-time",
+      "country": "uk",
+      "intent": "one-time",
+      "prompt": "Which Life in the UK test apps for iPhone offer a one-time purchase without a subscription? Compare the free access and paid features using current sources."
+    },
+    {
+      "id": "uk-features",
+      "country": "uk",
+      "intent": "features",
+      "prompt": "Compare Life in the UK test apps for iPhone for mock tests, explanations, offline study and audio. Cite sources and mark any features you cannot verify."
+    }
+  ]
+}
