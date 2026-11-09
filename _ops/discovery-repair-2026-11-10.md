@@ -16,6 +16,7 @@
 - [ ] Improve AU/CA headings and add concise product facts and page metadata.
 - [ ] Replace UK support.md with support.html, preserving its help content.
 - [ ] Add publisher identity and linked product collection metadata to the main hub.
+- [ ] Add change-scoped IndexNow notifications after successful deployment, with ownership-file verification and honest 200/202 status reporting. Never submit on the six-hour schedule.
 - [ ] Run existing source tests and add a six-hour live schedule to both repositories.
 - [ ] Review isolated branches, merge, verify exact deployed commits and live pages.
 - [ ] Inspect Google/Bing status and submit changed URLs where supported.
@@ -25,3 +26,9 @@
 Use GitHub connector branches and existing Actions for execution; do not run shell commands outside Ponytail.
 These reversible static content/config changes use existing source/live checks and direct output inspection rather than adding tests that merely duplicate the page copy.
 Do not change sitemaps merely to reset submission dates; current ingestion failure remains separately tracked.
+
+## Execution evidence
+- Both original static branches passed all existing source checks.
+- Eight notification behavior tests failed as expected before implementation; the existing 18 tests passed in each repository.
+- Scope addition: Bing live fetch succeeded while its index reported discovered but not crawled; automate changed-page notifications instead of relying solely on manual retries.
+- Reviewer found two minor presentation issues. Fixed capitalization and moved paid product facts outside the free-access region before publication.

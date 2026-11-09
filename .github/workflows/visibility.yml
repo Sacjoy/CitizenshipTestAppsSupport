@@ -15,6 +15,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           persist-credentials: false
+          fetch-depth: 0
       - run: python3 -m unittest discover -s _ops/tests -v
       - run: python3 _ops/check_visibility.py
       - uses: actions/upload-artifact@v4
@@ -32,15 +33,21 @@ jobs:
       - uses: actions/checkout@v4
         with:
           persist-credentials: false
+          fetch-depth: 0
       - name: Wait for this commit's Pages deployment
         if: github.event_name != 'schedule'
         run: python3 _ops/wait_for_pages.py
         env:
           GH_TOKEN: ${{ github.token }}
       - run: python3 _ops/check_visibility.py --live
+      - name: Notify IndexNow of changed pages
+        if: github.event_name == 'push'
+        run: python3 _ops/notify_indexnow.py
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: live-readiness
-          path: visibility-report.json
+          path: |
+            visibility-report.json
+            indexnow-report.json
           retention-days: 30
