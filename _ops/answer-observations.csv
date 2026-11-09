@@ -1,0 +1,4 @@
+observed_at,cohort,prompt_id,country,surface,model,status,brand_mentioned,owned_page_cited,recommended,accurate_recommendation,accuracy_status,notes
+2026-11-10,historical-reconnaissance,au-top,au,Claude consumer web,Sonnet 5.5 High,completed,false,false,false,false,not_applicable_absent,"Existing answer reread; exact prompt: top Australian citizenship apps. Single exploratory run; excluded from new cohort baseline."
+2026-11-10,historical-reconnaissance,ca-recommend,ca,Claude consumer web,Sonnet 5.5 High,completed,false,false,false,false,not_applicable_absent,"Existing answer reread; prompt matches ca-recommend. Generation timestamp not re-established; single exploratory run."
+2026-11-10,historical-reconnaissance,uk-recommend,uk,Claude consumer web,Sonnet 5.5 High,completed,false,false,false,false,not_applicable_absent,"Existing answer reread; prompt used UK citizenship / Life in the UK wording. Single exploratory run."
