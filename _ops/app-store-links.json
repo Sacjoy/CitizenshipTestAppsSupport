@@ -1,0 +1,28 @@
+{
+  "developer": "Megha Sachin Jadhav",
+  "apps": [
+    {
+      "name": "Australian Citizen Test 2027",
+      "app_store_id": "6811051893",
+      "app_store_url": "https://apps.apple.com/au/app/australian-citizen-test-2027/id6811051893",
+      "support_url": "https://sacjoy.github.io/CanadaPrepSupport/australia-support.html",
+      "marketing_url": "https://sacjoy.github.io/CanadaPrepSupport/australia-support.html",
+      "existing_support_entry": "https://sacjoy.github.io/AustraliaPrepSupport/",
+      "existing_entry_behavior": "Instant meta refresh and canonical to support_url"
+    },
+    {
+      "name": "Canadian Citizenship Prep 2027",
+      "app_store_id": "6811515364",
+      "app_store_url": "https://apps.apple.com/ca/app/canadian-citizenship-prep-2027/id6811515364",
+      "support_url": "https://sacjoy.github.io/CanadaPrepSupport/support.html",
+      "marketing_url": "https://sacjoy.github.io/CanadaPrepSupport/support.html"
+    },
+    {
+      "name": "UK Citizenship Test 2027",
+      "app_store_id": "6811575732",
+      "app_store_url": "https://apps.apple.com/gb/app/uk-citizenship-test-2027/id6811575732",
+      "support_url": "https://sacjoy.github.io/CitizenshipTestAppsSupport/uk/support.html",
+      "marketing_url": "https://sacjoy.github.io/CitizenshipTestAppsSupport/uk/support.html"
+    }
+  ]
+}
