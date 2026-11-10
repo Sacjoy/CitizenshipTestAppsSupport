@@ -48,3 +48,9 @@ Run three fresh eligible repetitions per available consumer surface, recording m
 The narrower-query screenshot remains positive exploratory evidence with unverified model/session/link details. It does not establish that the broad query works or that a particular site change caused the result. Preserve the earlier Claude baseline.
 
 Review acquisition, rating solicitation and reviewer outreach remain excluded. Focus on concrete discovery defects, accurate product and comparison content, legitimate catalogue corrections and measured recommendations. See `top-au-target-2026-11-11.md` for this intervention and its validation.
+
+## Signed-out ChatGPT observation: 11 November 2026
+
+A user-reported incognito, signed-out free ChatGPT answer to a plural broad top-app query omitted the target app. A subsequent iPhone/English/free-or-paid follow-up in the same conversation also omitted it. The pasted answer text was provided, but exact model, generation times, search trace and citation destinations were not independently verified.
+
+Record this as negative exploratory evidence in the AU priority record. The follow-up is contextual, not an independent repetition. Do not combine this prompt variant or surface with the frozen cohort or the exact singular-query Claude baseline. Keep earlier positive ChatGPT screenshots as exploratory observations; consistent broad-query ChatGPT inclusion remains unproven. No raw user conversation is published here.
