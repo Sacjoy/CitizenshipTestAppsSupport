@@ -46,3 +46,19 @@ The three released App Store versions have empty Marketing URL fields; those fie
 
 ## Review and operating limits
 Independent review found no critical/important defects. The two static-content findings were fixed. The remaining minor test gap is lack of isolated main() tests; this release exercised the actual push entrypoint through successful deployed key verification and real API responses. The six-hour monitor checks crawl readiness, not indexing or recommendation success. It notifies only on changed-page pushes and intentionally does not notify repeatedly on the schedule.
+
+## Google sitemap investigation follow-up, 10 November 2026
+
+Status: sitemap processing remains unresolved. Do not mark this closed from a submission receipt or from a successful URL Inspection live test.
+
+- Google's own live tests at 11:08:07 Australia/Melbourne successfully fetched both existing sitemap.xml URLs. Each response was HTTP 200 OK with Content-Type application/xml, crawl allowed Yes and indexing allowed Yes. Google's tested source contained the current seven main-site URLs and three CanadaPrepSupport URLs. The inspection crawler was Google Inspection Tool smartphone.
+- Both verified properties reported No issues detected under Manual actions and Security issues. Root robots.txt returning 404 is not a crawl block. The directory-level properties do not expose root Crawl stats or robots history, so historical host failures and crawl demand remain unconfirmed.
+- Re-submitted the same tested XML URLs once after the live tests. Google accepted both submissions. The Sitemaps report still showed Unknown, Couldn't fetch and zero discovered pages, with no last-read value in the table. No more specific fetch error was exposed. Submission is not processing success.
+- The main app hub is already indexed. Its recorded Googlebot smartphone crawl was 2 November 2026 at 15:12:06 Australia/Melbourne, with successful fetch, crawling/indexing allowed and the intended canonical selected. A refresh request for the updated hub was also accepted into the priority crawl queue. This does not prove the newly published country pages are indexed.
+- AU australia-support.html, CA support.html and UK uk/support.html each still reported URL is unknown to Google before the requests. All three now received Indexing requested confirmations stating that they were added to a priority crawl queue. This supersedes the earlier Canada daily-quota rejection above. Queue acceptance is not indexing.
+
+The reproducible failure is the sitemap-processing report; a current file-serving, XML, robots or manual-action defect was not reproduced. A stale/transient processing result or low crawl demand remains a hypothesis, not a proven cause. Do not rename valid sitemaps, change accurate lastmod dates, add ineffective directory-level robots.txt files, or repeat accepted URL requests to manufacture a green status.
+
+For the next scheduled outcome check, inspect sitemap status and the three canonical country URLs separately. Close sitemap ingestion only when Google reports Success with the expected discovered URLs (7 main, 3 CanadaPrepSupport). Close each page's indexing item only when URL Inspection confirms it is indexed with the correct canonical. If the live fetch fails later, use the specific response error to identify the repair.
+
+Official troubleshooting reference: https://support.google.com/webmasters/answer/7451001
