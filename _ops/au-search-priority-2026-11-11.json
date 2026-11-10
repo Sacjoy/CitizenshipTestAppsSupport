@@ -28,18 +28,21 @@
   "phase_2": "Active now. Target the exact broad top-app query immediately. Retain the one-time query as a secondary guardrail and keep platforms separate.",
   "current_observation": {
     "observed_on": "2026-11-11",
-    "evidence_type": "user_supplied_screenshot",
-    "observed_result": "The exact target app name is listed first in a ChatGPT answer to the phase-1 query, with A$14.99 lifetime, 2500 questions, two free mocks and no account required.",
-    "recommendation": "apparent_positive_shortlist_in_one_answer",
-    "unknowns": [
-      "model",
-      "generation timestamp",
-      "memory and conversation context",
-      "actual linked App Store ID",
-      "complete answer and all citations"
-    ],
+    "evidence_type": "user_reported_pasted_response",
+    "surface": "ChatGPT consumer web",
+    "session": "User reports browser incognito, signed out, free access",
+    "observed_result": "Target app absent from the reported broad top-app answer and a contextual iPhone/English/free-or-paid follow-up.",
+    "recommendation": "absent_in_both_reported_answers",
     "benchmark_eligible": false,
-    "note": "Positive exploratory evidence. Do not alter the earlier Claude 0/3 recommend-intent baseline, count this as a controlled repetition, or attribute it to the AppAgg refresh."
+    "unknowns": [
+      "Exact model",
+      "Generation timestamps",
+      "Search tool execution trace",
+      "Citation destination URLs",
+      "Verified location setting",
+      "Independent repetition"
+    ],
+    "note": "The plural broad query is a separate prompt variant from au-top-exact-v1. The iPhone follow-up shares conversation context and is not an independent repetition. Preserve the earlier positive examples as exploratory observations. Consistent broad-query ChatGPT visibility is not demonstrated."
   },
   "active_work": [
     "Target top Australian citizenship app now: improve the existing AU comparison and hub context, then measure the exact broad prompt.",
@@ -70,5 +73,23 @@
     "confirmation": "Repeat the same result threshold on a different day with matching prompt, model and consumer surface.",
     "conditions": "Fresh conversations without memory or prior app context where available; web search observed; no seeded app name or URL; verify linked App Store ID and material product facts.",
     "scope": "Measurement checkpoint only; it does not delay targeting or implementation."
-  }
+  },
+  "earlier_observations": [
+    {
+      "observed_on": "2026-11-11",
+      "evidence_type": "user_supplied_screenshot",
+      "observed_result": "The exact target app name is listed first in a ChatGPT answer to the phase-1 query, with A$14.99 lifetime, 2500 questions, two free mocks and no account required.",
+      "recommendation": "apparent_positive_shortlist_in_one_answer",
+      "unknowns": [
+        "model",
+        "generation timestamp",
+        "memory and conversation context",
+        "actual linked App Store ID",
+        "complete answer and all citations"
+      ],
+      "benchmark_eligible": false,
+      "note": "Positive exploratory evidence. Do not alter the earlier Claude 0/3 recommend-intent baseline, count this as a controlled repetition, or attribute it to the AppAgg refresh."
+    }
+  ],
+  "current_assessment": "AU broad-query visibility remains inconsistent and unproven across ChatGPT sessions; Claude independent discovery remains unresolved. Readiness and accepted submissions are not successful recommendation outcomes."
 }
