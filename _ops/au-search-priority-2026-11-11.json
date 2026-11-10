@@ -1,5 +1,5 @@
 {
-  "version": "au-intent-progression-v1",
+  "version": "au-intent-progression-v2",
   "updated_on": "2026-11-11",
   "timezone": "Australia/Melbourne",
   "app": {
@@ -7,30 +7,25 @@
     "app_store_id": "6811051893"
   },
   "primary_surface": "ChatGPT consumer web",
-  "current_phase": "one_time_purchase_consistency",
+  "current_phase": "broad_top_app_targeting",
   "frozen_cohort": "_ops/answer-prompts.json remains unchanged; use separate IDs for these exact queries.",
   "prompts": [
     {
       "id": "au-one-time-exact-v1",
       "phase": 1,
       "prompt": "Australian citizenship apps with a one-time purchase and no subscription.",
-      "branded": false
+      "branded": false,
+      "priority": "secondary_guardrail"
     },
     {
       "id": "au-top-exact-v1",
       "phase": 2,
       "prompt": "top Australian citizenship app",
-      "branded": false
+      "branded": false,
+      "priority": "primary_now"
     }
   ],
-  "phase_1_checkpoint": {
-    "eligible_repetitions_per_check": 3,
-    "accurate_recommendations_required": 2,
-    "confirmation": "Repeat the same result threshold on a different day with matching prompt, model and consumer surface.",
-    "conditions": "Fresh conversations without memory or prior app context where available; web search observed; no seeded app name or URL; verify linked App Store ID and material product facts.",
-    "scope": "An internal repeatability checkpoint, not a statistical or universal ranking claim. First-list position is not required and is not proof of a ranking."
-  },
-  "phase_2": "After the ChatGPT phase-1 checkpoint, prioritize the exact broad top-app query for evidence-based improvements and repeated measurement. Retain the one-time prompt as a guardrail; keep Claude and other surfaces separate.",
+  "phase_2": "Active now. Target the exact broad top-app query immediately. Retain the one-time query as a secondary guardrail and keep platforms separate.",
   "current_observation": {
     "observed_on": "2026-11-11",
     "evidence_type": "user_supplied_screenshot",
@@ -47,6 +42,7 @@
     "note": "Positive exploratory evidence. Do not alter the earlier Claude 0/3 recommend-intent baseline, count this as a controlled repetition, or attribute it to the AppAgg refresh."
   },
   "active_work": [
+    "Target top Australian citizenship app now: improve the existing AU comparison and hub context, then measure the exact broad prompt.",
     "Verify crawl and index status without repeated unchanged submissions",
     "Maintain accurate owned product pages and country identity",
     "Correct legitimate catalogue and App Store website mappings within existing authorization",
@@ -65,5 +61,14 @@
     "No account or privacy changes",
     "Respect browser policy blocks; do not substitute API/web search for a consumer result",
     "Preserve existing CA and UK monitoring"
-  ]
+  ],
+  "primary_prompt_id": "au-top-exact-v1",
+  "progression_gate": "Removed at the user's direction on 11 November 2026. Broad top-app targeting starts immediately.",
+  "repeatability_checkpoint": {
+    "eligible_repetitions_per_check": 3,
+    "accurate_recommendations_required": 2,
+    "confirmation": "Repeat the same result threshold on a different day with matching prompt, model and consumer surface.",
+    "conditions": "Fresh conversations without memory or prior app context where available; web search observed; no seeded app name or URL; verify linked App Store ID and material product facts.",
+    "scope": "Measurement checkpoint only; it does not delay targeting or implementation."
+  }
 }
