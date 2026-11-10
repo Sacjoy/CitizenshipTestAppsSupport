@@ -1,6 +1,8 @@
 # Editorial outreach drafts
 Prepared 10 November 2026. Not sent. No editorial placement, endorsement or backlink has been obtained.
 
+Status updated 11 November 2026: INACTIVE at the user's direction. App review acquisition and reviewer outreach are excluded from the current visibility plan. Retained for history only; do not send or restart these drafts unless the user explicitly changes that direction. See outcome-measurement.md for the active sequence.
+
 ## Shared evidence
 https://sacjoy.github.io/CitizenshipTestAppsSupport/review-kit.html
 This openly identifies the publisher, app IDs, screenshots, sourced practice examples and limits. Reviews must be independent. Do not buy undisclosed links, exchange favourable reviews or submit developer-written copy as a customer testimonial.

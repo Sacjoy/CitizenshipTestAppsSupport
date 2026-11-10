@@ -1,5 +1,5 @@
 # Citizenship search outcome measurement
-Updated 10 November 2026.
+Updated 11 November 2026.
 
 ## Keep four measurements separate
 1. Readiness: existing six-hour workflow checks live HTTP responses, canonicals, robots and sitemap membership. This is not an index or recommendation check.
@@ -37,3 +37,12 @@ Report availability can depend on impressions. Its absence does not prove zero A
 
 ## Next check
 Run the fixed cohort after deployment and on the next day when access permits. Then compare the same cohort weekly. Check source accuracy after each app release and refresh screenshots when the listing changes. AU Marketing URL verified live on 11 November 2026: the App Store Developer Website link resolves to the AU product page. CA and UK release/link status was not rechecked in this follow-up. See app-store-links.json for the approved URL mapping.
+
+## Current priority: one-time purchase first, broad top-app query next
+Updated 11 November 2026. This direction supersedes earlier suggestions to pursue app reviews or reviewer outreach.
+
+Use the supplementary exact queries and stage checkpoint in `au-search-priority-2026-11-11.json`, without modifying the frozen nine-prompt cohort. First establish repeatable, accurate ChatGPT recommendations for the one-time-purchase/no-subscription query. Apply the existing checkpoint of at least two accurate recommendations from three fresh eligible runs, confirmed on another day on the same surface/model. Then prioritize `top Australian citizenship app` while retaining the narrower query as a guardrail. Keep platform results separate and preserve Canada/UK monitoring.
+
+A user-supplied screenshot on 11 November shows the target app name listed first for the one-time query. Record this as positive exploratory evidence only: model, session context, linked App Store ID and full citation details were not verified. It is not a completed repeatable cohort and does not establish that the AppAgg update caused the appearance.
+
+Remove review acquisition, rating solicitation and reviewer outreach from active work. Keep the earlier drafts as inactive history. Work on verifiable discovery, accurate owned content, legitimate catalogue corrections and repeated neutral measurement. Existing browser access-policy blocks must be respected; blocked tests remain unknown and are excluded from rates.
