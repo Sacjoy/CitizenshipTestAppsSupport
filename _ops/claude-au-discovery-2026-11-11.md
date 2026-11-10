@@ -40,3 +40,19 @@ Next intervention: qualify relevant catalogue coverage and independent product e
 AppAgg already has a matching AU listing at https://appagg.com/ios/education/australian-citizen-test-2027-44323866.html?hl=en, identifying the developer and current app title. Its visible version remains 1.2. Its rating and price fields are not labelled as AU, so they must not be compared to the Australian storefront as if identical. Existing catalogue inclusion alone has not produced inclusion in the three observed Claude answers.
 
 A refresh was attempted through AppAgg's Add/Update form with the AU App Store URL. The site required sign-in before accepting the request. No refresh confirmation was received and no new account was created. Refresh status: blocked pending authentication. No outreach messages were sent.
+
+## Authenticated catalogue refresh: 11 November 2026
+
+This follow-up supersedes the authentication blocker above. Observed at 2026-11-10T21:20:22.737Z (reporting timezone Australia/Melbourne).
+
+After the user signed in, the Add/Update form returned `Done!` for each country's official App Store URL. The resulting listings were opened and inspected:
+
+| App | AppAgg listing | Version after refresh | Marketing website link in AppAgg |
+| --- | --- | --- | --- |
+| AU | https://appagg.com/ios/education/australian-citizen-test-2027-44323866.html?hl=en | 1.3, previously 1.2 | Present; correct CanadaPrepSupport/australia-support.html destination with AppAgg attribution parameters |
+| Canada | https://appagg.com/ios/education/canadian-citizenship-prep-2027-44305228.html?hl=en | 1.2 | Not present in the refreshed listing |
+| UK | https://appagg.com/ios/education/uk-citizenship-test-2027-44323883.html?hl=en | 1.1 | Not present in the refreshed listing |
+
+The public Canadian App Store page was retrieved and showed version 1.2. The UK public App Store page was inspected in Chrome and showed version 1.1. App Store Connect review states were not checked and no iOS release was changed. AppAgg's rating counts must not be treated as Australian, Canadian or UK storefront counts without a verified market mapping.
+
+Refresh status: accepted for all three apps; AU version and website-link changes verified. No new neutral Claude runs were performed after this refresh. The earlier 0/3 AU recommendation baseline remains unchanged. Catalogue refresh success is not evidence of improved AI recommendations.
