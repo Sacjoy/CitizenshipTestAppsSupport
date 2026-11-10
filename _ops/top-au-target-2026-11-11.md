@@ -54,3 +54,9 @@ https://appshunter.io/ios/app/australian-citizen-test-2027/id6811051893
 The existing entry matches the app ID and developer but still shows version 1.2, updated 14 October. Its market for price/rating data was not verified, so do not compare its dollar price or rating count to the Australian storefront. The form did not confirm a new entry or a refresh. No account was created, payment made or support message sent. Existing catalogue presence is distinct from inclusion in a category shortlist.
 
 Broad targeting is active now. Recommendation improvement remains unverified; retain the exact-prompt consumer baseline above and compare future matching runs without attributing an outcome to this content change alone.
+
+## Google discovery action after publication
+Observed 2026-11-10T22:52:12.473Z (11 November 2026, Australia/Melbourne).
+Google URL Inspection still reported the AU comparison URL as unknown to Google, with no last crawl, referring sitemap or referring page. This is a Google-specific discovery observation, not proof of ChatGPT's search-provider behavior.
+
+Requested indexing once for the materially revised comparison page. Google completed its eligibility test and displayed `Indexing requested`, confirming that the URL was added to a priority crawl queue. Do not repeat this unchanged request or treat queue acceptance as indexing, recommendation success or resolution of the separate sitemap-fetch issue.
