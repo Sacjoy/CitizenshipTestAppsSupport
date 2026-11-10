@@ -14,7 +14,7 @@ Alternatives considered: a second near-duplicate top-app URL would split the sam
 - [x] Refresh the existing comparison with current names, payment models, purchase limits, audio and network facts.
 - [x] Add a contextual AU comparison link to the app hub and update lastmod only for the two changed public pages.
 - [x] Validate the scoped diff and existing source checks; independently review claims and links.
-- [ ] Merge through the existing GitHub workflow, verify the exact Pages deployment and live rendering, and record changed-page notification outcomes.
+- [x] Merge through the existing GitHub workflow, verify the exact Pages deployment and live desktop rendering, and record changed-page notification outcomes.
 
 ## Source checks
 Australian storefront sources checked 11 November 2026:
@@ -36,3 +36,21 @@ Three fresh Claude consumer incognito responses to the exact prompt `top Austral
 A fresh independent reviewer read all six intervention files and the actual base-to-head diff. No material findings. Source checks passed on 9bd3b361c38a90cf51d976308fc129fb510a2428; record-only additions also run the existing checks before merge. The public guide does not present its own inclusion as an independent endorsement or a measured ranking.
 
 PR: https://github.com/Sacjoy/CitizenshipTestAppsSupport/pull/6
+
+## Published verification
+PR #6 merged as 5ccda585ddee9567f25ec9520849abdb875a5485. Exact-commit Pages deployment succeeded:
+https://github.com/Sacjoy/CitizenshipTestAppsSupport/actions/runs/42916978099
+Source and live readiness checks succeeded:
+https://github.com/Sacjoy/CitizenshipTestAppsSupport/actions/runs/42916979084
+
+The source job ran the existing Python tests (26 passed), Node attribution tests and source readiness checks. The live job waited for this exact Pages commit and passed the live readiness checks. IndexNow returned HTTP 200 for the two changed public URLs, with submission_status received and indexing_status/ai_recommendations not_measured. This receipt does not establish indexing or recommendations.
+
+Chrome displayed the new title and H1 at the canonical URL. At the observed 1512px desktop width, page scroll width equalled viewport width and the comparison region fitted its container. A requested 390px viewport override was not reflected by this connected browser, even after reload; mobile rendering was not independently verified. The override was reset. No mobile-specific layout change was introduced.
+
+## Cited catalogue finding
+A fresh Claude answer cited the AppsHunter citizenship category. Its public Add an App form was submitted with our exact AU App Store URL and responded that the app was already present:
+https://appshunter.io/ios/app/australian-citizen-test-2027/id6811051893
+
+The existing entry matches the app ID and developer but still shows version 1.2, updated 14 October. Its market for price/rating data was not verified, so do not compare its dollar price or rating count to the Australian storefront. The form did not confirm a new entry or a refresh. No account was created, payment made or support message sent. Existing catalogue presence is distinct from inclusion in a category shortlist.
+
+Broad targeting is active now. Recommendation improvement remains unverified; retain the exact-prompt consumer baseline above and compare future matching runs without attributing an outcome to this content change alone.
