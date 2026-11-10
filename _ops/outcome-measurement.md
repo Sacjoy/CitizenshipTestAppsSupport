@@ -36,4 +36,4 @@ https://support.google.com/webmasters/answer/16984139
 Report availability can depend on impressions. Its absence does not prove zero AI visibility. Keep ordinary Web performance and any available Generative AI report separate and label coverage. Do not infer consumer Gemini performance from Search Console.
 
 ## Next check
-Run the fixed cohort after deployment and on the next day when access permits. Then compare the same cohort weekly. Check source accuracy after each app release and refresh screenshots when the listing changes. App Store Marketing URLs remain queued in app-store-links.json until an editable release exists.
+Run the fixed cohort after deployment and on the next day when access permits. Then compare the same cohort weekly. Check source accuracy after each app release and refresh screenshots when the listing changes. AU Marketing URL verified live on 11 November 2026: the App Store Developer Website link resolves to the AU product page. CA and UK release/link status was not rechecked in this follow-up. See app-store-links.json for the approved URL mapping.
